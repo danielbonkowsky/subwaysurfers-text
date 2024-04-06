@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/static/styles.css" rel="stylesheet">
-    <title>Subway Surftoker</title>
+    <title>Text to Surf</title>
 </head>
 <body>
-    <h1>This is our web app!</h1>
-    <p>Daniel is smelly.</p>
+    <h1>Text to Tracks</h1>
+    <p>Convert articles into a brainrot TikTok Subway Surf style video. RIP your dopamine receptors.</p>
+    <form action="/output" method="post">
+        <label for="text_input">Enter Article Link</label><br>
+        <input type="text" id="text_input" name="text_input"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
 </html>
